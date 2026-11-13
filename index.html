@@ -1,14 +1,165 @@
 <!doctype html>
 <html lang="tr">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Backlink</title>
-</head>
-<body>
-  <main>
-    <h1>Backlink</h1>
-    <p>GitHub Pages sitesi hazır.</p>
-  </main>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Akıllı tahta oyunları ve eğitim kaynakları için içerik rehberi." />
+    <meta property="og:title" content="Akıllı Tahta - Eğitim Oyunları" />
+    <meta property="og:description" content="Eğitim içerikleri, oyunlar ve kaynaklar için rehber sayfası." />
+    <meta property="og:type" content="website" />
+    <title>Akıllı Tahta | Eğitim Oyunları</title>
+    <style>
+      :root {
+        --bg: #f5f7ff;
+        --panel: #ffffff;
+        --primary: #2f5ef7;
+        --secondary: #0f172a;
+        --muted: #475569;
+        --border: #e2e8f0;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background: linear-gradient(180deg, var(--bg), #eef4ff);
+        color: var(--secondary);
+      }
+      .container {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 32px 20px 60px;
+      }
+      .hero {
+        background: var(--panel);
+        border: 1px solid var(--border);
+        border-radius: 18px;
+        padding: 32px 24px;
+        box-shadow: 0 12px 32px rgba(31, 41, 55, 0.06);
+      }
+      h1 {
+        margin: 0 0 12px;
+        font-size: clamp(2rem, 4vw, 3rem);
+      }
+      .subtitle {
+        margin: 0;
+        color: var(--muted);
+        line-height: 1.7;
+        font-size: 1.05rem;
+      }
+      .badge {
+        display: inline-block;
+        margin-top: 18px;
+        background: #eaf1ff;
+        color: var(--primary);
+        padding: 8px 14px;
+        border-radius: 999px;
+        font-weight: 700;
+        font-size: 0.9rem;
+      }
+      .grid {
+        margin-top: 32px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 18px;
+      }
+      .card {
+        background: var(--panel);
+        border: 1px solid var(--border);
+        border-radius: 16px;
+        padding: 20px;
+      }
+      .card h2 {
+        margin: 0 0 10px;
+        font-size: 1.15rem;
+      }
+      .card ul {
+        margin: 0;
+        padding-left: 18px;
+        color: var(--muted);
+        line-height: 1.7;
+      }
+      footer {
+        margin-top: 36px;
+        text-align: center;
+        color: var(--muted);
+      }
+      a {
+        color: var(--primary);
+        text-decoration: none;
+      }
+      a:hover { text-decoration: underline; }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header class="hero">
+        <h1>Akıllı Tahta</h1>
+        <p class="subtitle">
+          Eğitim oyunları, kaynaklar ve içerik rehberi için hazırlanmış sayfa.
+          Bu site GitHub Pages üzerinden yayınlanmaktadır.
+        </p>
+        <span class="badge">GitHub Pages</span>
+      </header>
+
+      <main class="grid">
+        <section class="card">
+          <h2>Matematik</h2>
+          <ul>
+            <li><a href="https://tahta.akilliuslu.com/oyunlar/carpim-tablosu-oyunu">Çarpım Tablosu</a></li>
+            <li><a href="https://tahta.akilliuslu.com/oyunlar/kesir-pizza-oyunu">Kesir Pizza</a></li>
+            <li><a href="https://tahta.akilliuslu.com/oyunlar/sayi-dogrusu-oyunu">Sayı Doğrusu</a></li>
+          </ul>
+        </section>
+
+        <section class="card">
+          <h2>Fen Bilimleri</h2>
+          <ul>
+            <li><a href="https://tahta.akilliuslu.com/oyunlar/maddenin-halleri-oyunu">Maddenin Halleri</a></li>
+            <li><a href="https://tahta.akilliuslu.com/oyunlar/elektrik-devresi-oyunu">Elektrik Devresi</a></li>
+            <li><a href="https://tahta.akilliuslu.com/oyunlar/gunes-sistemi-gezegenler">Güneş Sistemi</a></li>
+          </ul>
+        </section>
+
+        <section class="card">
+          <h2>Türkçe</h2>
+          <ul>
+            <li><a href="https://tahta.akilliuslu.com/oyunlar/okuma-anlama-oyunu">Okuma Anlama</a></li>
+            <li><a href="https://tahta.akilliuslu.com/oyunlar/kelime-baglami-oyunu">Kelime Bağlamı</a></li>
+            <li><a href="https://tahta.akilliuslu.com/oyunlar/noktalama-tamircisi">Noktalama Tamircisi</a></li>
+          </ul>
+        </section>
+
+        <section class="card">
+          <h2>İngilizce</h2>
+          <ul>
+            <li><a href="https://tahta.akilliuslu.com/oyunlar/ingilizce-hava-durumu-oyunu">Hava Durumu</a></li>
+            <li><a href="https://tahta.akilliuslu.com/oyunlar/ingilizce-aile-baglari-haritasi-oyunu">Aile Bağları</a></li>
+            <li><a href="https://tahta.akilliuslu.com/oyunlar/ingilizce-gunluk-rutin-oyunu">Günlük Rutin</a></li>
+          </ul>
+        </section>
+
+        <section class="card">
+          <h2>Zeka ve Mantık</h2>
+          <ul>
+            <li><a href="https://tahta.akilliuslu.com/oyunlar/sudoku-oyunu">Sudoku</a></li>
+            <li><a href="https://tahta.akilliuslu.com/oyunlar/hanoi-kuleleri-oyunu">Hanoi Kuleleri</a></li>
+            <li><a href="https://tahta.akilliuslu.com/oyunlar/sayi-boncugu-oyunu">Sayı Boncuğu</a></li>
+          </ul>
+        </section>
+
+        <section class="card">
+          <h2>Rehber</h2>
+          <ul>
+            <li><a href="https://tahta.akilliuslu.com/rehber/carpim-tablosu">Çarpım Tablosu</a></li>
+            <li><a href="https://tahta.akilliuslu.com/rehber/noktalama-isaretleri">Noktalama İşaretleri</a></li>
+            <li><a href="https://tahta.akilliuslu.com/rehber/okuma-anlama-metinleri">Okuma Anlama Metinleri</a></li>
+          </ul>
+        </section>
+      </main>
+
+      <footer>
+        <p>© 2026 Akıllı Tahta</p>
+      </footer>
+    </div>
+  </body>
 </html>
